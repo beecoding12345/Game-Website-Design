@@ -2,7 +2,24 @@ body {
   background-color: lightblue;
 }
 
+{
+  background-image: url("paper.gif");
+}
+
 h1 {
   color: navy;
   margin-left: 20px;
 }
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p.groove {border-style: groove;}
+ 

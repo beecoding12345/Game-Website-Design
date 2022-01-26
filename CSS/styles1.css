@@ -1,0 +1,19 @@
+body {
+  background-color: forestgreen;
+}
+
+h2 {
+  color: black;
+  margin-left: 20px;
+}
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
