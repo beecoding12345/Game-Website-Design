@@ -1,25 +1,38 @@
 body {
   background-color: lightblue;
 }
-
-{
-  background-image: url("paper.gif");
-}
-
+  
 h1 {
-  color: navy;
+  text-align: center;
+  color: navy
   margin-left: 20px;
-}
-p.normal {
-  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;        
+    }
+
+h4{
+    text-align: left
 }
 
-p.italic {
+p1 {
+  font-style: normal;
+  font-family:sans-serif;
+  font-size: 150&;
+}
+
+p1.italic {
   font-style: italic;
 }
 
-p.oblique {
+p1.oblique {
   font-style: oblique;
 }
-p.groove {border-style: groove;}
+
+p1{
+    border-style: groove;
+    border-style: solid;
+    border-width: medium;
+    border-color: darkcyan;
+}
+
  

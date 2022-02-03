@@ -1,19 +1,36 @@
 body {
   background-color: forestgreen;
+  background-image: url()
 }
 
 h2 {
-  color: black;
+  text-align: center;
+  color: black
   margin-left: 20px;
-}
-p.normal {
+  font-family:"Lucida Console", "Courier New", monospace;
+  font-size: 200%;
+    
+h3 {
+    text-align: left;
+    }
+    
+p2 {
   font-style: normal;
+  font-family: monospace;
+  font-size: 150%;
 }
 
-p.italic {
+p2.italic {
   font-style: italic;
 }
 
-p.oblique {
+p2.oblique {
   font-style: oblique;
+}
+
+p2{
+    border-style: groove;
+    border-style: solid;
+    border-width: medium;
+    border-color: darkgreen;
 }
