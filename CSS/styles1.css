@@ -17,21 +17,21 @@ h3 {
     text-align: left;
     }
     
-p2 {
+p {
   font-style: normal;
     font-family: monospace;
     font-size: 150%; 
     }
     
-p2.italic {
+p.italic {
   font-style: italic;
 }
 
-p2.oblique {
+p.oblique {
   font-style: oblique;
 }
 
-p2 {
+p {
     border-style: groove;
     border-style: solid;
     border-width: medium;
