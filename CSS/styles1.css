@@ -1,6 +1,8 @@
 body {
   background-color: forestgreen;
-  background-image: url()
+  background-image: url(https://cdn.dribbble.com/users/3639405/screenshots/15681357/forest-background-vector_4x.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 h2 {
@@ -19,7 +21,7 @@ p2 {
   font-family: monospace;
   font-size: 150%;
 }
-
+    
 p2.italic {
   font-style: italic;
 }
@@ -28,9 +30,29 @@ p2.oblique {
   font-style: oblique;
 }
 
-p2{
+p2 {
     border-style: groove;
     border-style: solid;
     border-width: medium;
     border-color: darkgreen;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
